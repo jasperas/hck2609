@@ -1,0 +1,9 @@
+[project]
+name = "test-hck2609"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyglet>=2.1.16",
+]
