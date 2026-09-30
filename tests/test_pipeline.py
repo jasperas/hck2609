@@ -17,6 +17,6 @@ def test_convert_raw_writes_flat_json(tmp_path):
     if not (raw / "01_emails").exists():
         return
     out = convert_raw(raw, tmp_path)
-    assert len(out) == 40
+    assert len(out) == 80
     doc = json.loads(out[0].read_text())
     assert set(doc) == {"type", "metadata", "body"}

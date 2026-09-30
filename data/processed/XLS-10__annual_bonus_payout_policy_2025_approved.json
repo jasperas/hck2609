@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 6,
+      "Changelog": 2
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nAnnual bonus payout | March payroll | 2025-01-01 | Sofie Claes, HR Policy Manager | The annual bonus is paid with the March payroll.\nAnnual bonus payout - conditions | Employees must be in active service on 31 December of the performance year. | 2025-01-01 | Sofie Claes, HR Policy Manager\nLast updated | 2026-03-21\n\nSheet: Changelog\n1.2 | 02/03/2022 | Previous values\n3.0 | 2026-03-21 00:00:00 | New values approved"
+}

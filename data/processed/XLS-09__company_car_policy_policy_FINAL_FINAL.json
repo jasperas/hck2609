@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 5,
+      "Changelog": 2
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nCompany car policy | hybrid/petrol up to 120 g/km, max EUR 45,000 | 2021-07-01 | Jan Peeters, HR Advisor (left company 2023) | New lease contracts allow hybrid or petrol cars with CO2 emissions up to 120 g/km and a list price up to EUR 45,000.\nLast updated | 2023-05-15\n\nSheet: Changelog\n1.0 | 2023-01-15 | Initial\n1.2 | 2023-05-15 | Final"
+}
