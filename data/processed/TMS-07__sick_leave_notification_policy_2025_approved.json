@@ -1,0 +1,169 @@
+{
+  "type": "teams_thread",
+  "metadata": {
+    "team": "HR",
+    "channel": "hr-announcements",
+    "chatType": "channel"
+  },
+  "body": [
+    {
+      "id": "1600000737810",
+      "replyToId": null,
+      "createdDateTime": "2025-11-03T17:52:00Z",
+      "from": {
+        "user": {
+          "displayName": "Sofie Claes"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<b>Updated policy: Sick leave notification</b><br>Employees notify their manager before 9:00 on the first day of absence. A medical certificate is required from the 2nd consecutive day of absence. Absences longer than 10 working days must also be reported to the HR mailbox.<br>Full policy on the HR SharePoint."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user2"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user3"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user4"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user5"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user6"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user7"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user8"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user9"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user10"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user11"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user12"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user13"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user14"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user15"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user16"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user17"
+          }
+        }
+      ],
+      "attachments": [
+        {
+          "name": "sick_leave_notification_policy_2025_approved.docx",
+          "contentType": "reference"
+        }
+      ]
+    },
+    {
+      "id": "1600801024729",
+      "replyToId": "1600000737810",
+      "createdDateTime": "2025-11-03T18:37:00Z",
+      "from": {
+        "user": {
+          "displayName": "Sara Bogaert"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Thanks for the update!"
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        }
+      ],
+      "attachments": []
+    }
+  ]
+}

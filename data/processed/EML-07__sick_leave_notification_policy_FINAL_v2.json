@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Jan Peeters <jan.peeters@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "Sick leave notification policy (final)",
+    "date": "Wed, 19 Oct 2022 10:20:00 +0100",
+    "message_id": "<5da13c47-fc63-935c-6194-02490db7c8b7@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Hi all,\n\nAs discussed, here is the final sick leave notification policy.\n\nEmployees notify their manager on the first day of absence. A medical certificate is required from the 3rd consecutive day of absence.\n\nPlease apply this from now on.\n\nBest,\nJan Peeters\nHR Advisor (left company 2023)\n"
+}

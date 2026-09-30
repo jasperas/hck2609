@@ -1,0 +1,72 @@
+{
+  "type": "teams_thread",
+  "metadata": {
+    "team": "HR Projects",
+    "channel": "hr-policy-refresh",
+    "chatType": "channel"
+  },
+  "body": [
+    {
+      "id": "1600270135510",
+      "replyToId": null,
+      "createdDateTime": "2026-05-24T13:53:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lotte Verhoeven"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Draft for discussion, not approved yet: Proposal: parental leave of 20 weeks for the primary caregiver and 10 weeks for the secondary caregiver."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "1600650627595",
+      "replyToId": "1600270135510",
+      "createdDateTime": "2026-05-24T15:53:00Z",
+      "from": {
+        "user": {
+          "displayName": "Maxime Dubois"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Legal still needs to review this. Let's keep it inside this channel."
+      },
+      "reactions": [],
+      "attachments": []
+    },
+    {
+      "id": "1600227868215",
+      "replyToId": "1600270135510",
+      "createdDateTime": "2026-05-24T18:53:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lotte Verhoeven"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Agreed. Nothing is final until the Management Committee signs off."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        }
+      ],
+      "attachments": []
+    }
+  ]
+}
