@@ -1,0 +1,75 @@
+{
+  "team": "Company",
+  "channel": "general",
+  "chatType": "channel",
+  "messages": [
+    {
+      "id": "1600068480537",
+      "replyToId": null,
+      "createdDateTime": "2023-05-03T08:15:00Z",
+      "from": {
+        "user": {
+          "displayName": "Marleen Vos"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Hi all, the final new hire it onboarding policy is now available. IT equipment is ordered 5 working days before the start date."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user2"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user3"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user4"
+          }
+        }
+      ],
+      "attachments": [
+        {
+          "name": "HR_new_hire_it_onboarding_final.docx",
+          "contentType": "reference"
+        }
+      ]
+    },
+    {
+      "id": "1600779940800",
+      "replyToId": "1600068480537",
+      "createdDateTime": "2025-10-19T08:15:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lien Hendrickx"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Is this still valid? I can't find a newer version anywhere."
+      },
+      "reactions": [],
+      "attachments": []
+    }
+  ]
+}

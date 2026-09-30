@@ -1,0 +1,36 @@
+{
+  "team": "Finance",
+  "channel": "payroll-info",
+  "chatType": "channel",
+  "messages": [
+    {
+      "id": "1600819251519",
+      "replyToId": null,
+      "createdDateTime": "2026-01-25T08:03:00Z",
+      "from": {
+        "user": {
+          "displayName": "Kevin Maes"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Reminder from Payroll: A maximum of 5 unused vacation days can be carried over."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        }
+      ],
+      "attachments": []
+    }
+  ]
+}

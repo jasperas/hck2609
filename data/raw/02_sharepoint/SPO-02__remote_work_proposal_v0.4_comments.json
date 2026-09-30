@@ -1,0 +1,55 @@
+{
+  "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Project-Workspace/_api/$metadata#Items",
+  "Id": 6763,
+  "UniqueId": "a6269527-9070-962c-5fdd-707eb8d3af23",
+  "Title": "DRAFT - Remote work Policy Proposal",
+  "FileLeafRef": "remote_work_proposal_v0.4_comments.docx",
+  "FileRef": "/sites/HR-Project-Workspace/Working Drafts/remote_work_proposal_v0.4_comments.docx",
+  "Site": "HR-Project-Workspace",
+  "Library": "Working Drafts",
+  "ContentType": "Document",
+  "Author": {
+    "Title": "Lotte Verhoeven",
+    "Email": "lotte.verhoeven@vandenberg-logistics.example"
+  },
+  "Editor": {
+    "Title": "Lotte Verhoeven",
+    "Email": "lotte.verhoeven@vandenberg-logistics.example"
+  },
+  "Created": "2025-12-04T16:57:00",
+  "Modified": "2026-06-20T16:57:00",
+  "_UIVersionString": "0.4",
+  "_ModerationStatus": 3,
+  "DocumentStatus": "In progress",
+  "Department": "HR-Projects",
+  "Tags": [],
+  "Sensitivity": "Internal",
+  "ViewCount90d": 15,
+  "Content": "Background: This document is a proposal and has not been approved.\n\nProposal: Proposal: remote work is limited to 2 days per week.\n\nOpen points: Legal review pending. Budget impact to be confirmed.",
+  "VersionHistory": [
+    {
+      "version": "0.1",
+      "modified": "2026-05-09",
+      "editor": "Lotte Verhoeven",
+      "comment": "First outline"
+    },
+    {
+      "version": "0.2",
+      "modified": "2026-05-23",
+      "editor": "Lotte Verhoeven",
+      "comment": "Added numbers"
+    },
+    {
+      "version": "0.3",
+      "modified": "2026-06-06",
+      "editor": "Lotte Verhoeven",
+      "comment": "Comments from payroll"
+    },
+    {
+      "version": "0.4",
+      "modified": "2026-06-20",
+      "editor": "Lotte Verhoeven",
+      "comment": "Waiting for legal"
+    }
+  ]
+}

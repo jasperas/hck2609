@@ -1,0 +1,166 @@
+{
+  "team": "HR",
+  "channel": "hr-announcements",
+  "chatType": "channel",
+  "messages": [
+    {
+      "id": "1600113787533",
+      "replyToId": null,
+      "createdDateTime": "2025-09-20T17:45:00Z",
+      "from": {
+        "user": {
+          "displayName": "Wim Goossens"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<b>Updated policy: Performance review cycle</b><br>There are two review cycles per year: a mid-year review in June and a year-end review in December. New hires have a probation review after 3 months.<br>Full policy on the HR SharePoint."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user2"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user3"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user4"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user5"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user6"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user7"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user8"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user9"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user10"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user11"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user12"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user13"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user14"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user15"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user16"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user17"
+          }
+        }
+      ],
+      "attachments": [
+        {
+          "name": "performance_review_cycle_policy_2025_approved.docx",
+          "contentType": "reference"
+        }
+      ]
+    },
+    {
+      "id": "1600605549556",
+      "replyToId": "1600113787533",
+      "createdDateTime": "2025-09-20T18:30:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lien Hendrickx"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Thanks for the update!"
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        }
+      ],
+      "attachments": []
+    }
+  ]
+}

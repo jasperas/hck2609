@@ -1,0 +1,90 @@
+{
+  "team": "Operations",
+  "channel": "ops-team",
+  "chatType": "channel",
+  "messages": [
+    {
+      "id": "1600759433528",
+      "replyToId": null,
+      "createdDateTime": "2026-07-18T12:30:00Z",
+      "from": {
+        "user": {
+          "displayName": "Pieter Aerts"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "How many days can I work from home?"
+      },
+      "reactions": [],
+      "attachments": []
+    },
+    {
+      "id": "1600467502784",
+      "replyToId": "1600759433528",
+      "createdDateTime": "2026-07-18T12:45:00Z",
+      "from": {
+        "user": {
+          "displayName": "Els Maes"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "We're basically fully remote, nobody checks how often you come in."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user2"
+          }
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "1600547738504",
+      "replyToId": "1600759433528",
+      "createdDateTime": "2026-07-18T13:10:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lien Hendrickx"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Not sure that's still correct tbh. Did anyone check the portal?"
+      },
+      "reactions": [],
+      "attachments": []
+    },
+    {
+      "id": "1600051644843",
+      "replyToId": "1600759433528",
+      "createdDateTime": "2026-07-18T13:25:00Z",
+      "from": {
+        "user": {
+          "displayName": "Els Maes"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "It's what I was told. Should be fine"
+      },
+      "reactions": [],
+      "attachments": []
+    }
+  ]
+}

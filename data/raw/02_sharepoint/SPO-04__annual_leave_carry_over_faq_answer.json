@@ -1,0 +1,32 @@
+{
+  "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Helpdesk/_api/$metadata#Items",
+  "Id": 5969,
+  "UniqueId": "55128c25-ed8e-e188-e938-8e2fad3a28bd",
+  "Title": "HR FAQ - Annual leave carry-over",
+  "FileLeafRef": "annual_leave_carry_over_faq_answer.docx",
+  "FileRef": "/sites/HR-Helpdesk/FAQ/annual_leave_carry_over_faq_answer.docx",
+  "Site": "HR-Helpdesk",
+  "Library": "FAQ",
+  "ContentType": "Document",
+  "Author": {
+    "Title": "Sofie Claes",
+    "Email": "sofie.claes@vandenberg-logistics.example"
+  },
+  "Editor": {
+    "Title": "Sofie Claes",
+    "Email": "sofie.claes@vandenberg-logistics.example"
+  },
+  "Created": "2026-04-26T13:51:00",
+  "Modified": "2026-08-25T13:51:00",
+  "_UIVersionString": null,
+  "_ModerationStatus": 0,
+  "DocumentStatus": "Published",
+  "Department": "HR",
+  "Tags": [
+    "leave_carryover"
+  ],
+  "Sensitivity": "Internal",
+  "ViewCount90d": 224,
+  "Content": "Question: How many vacation days can I carry over to next year?\n\nAnswer: A maximum of 5 unused vacation days can be carried over and must be taken before 31 March.\n\nMore info: See the policy on the HR SharePoint or contact HR.",
+  "VersionHistory": []
+}

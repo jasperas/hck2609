@@ -1,0 +1,11 @@
+topic_id,question,correct_answer,trustworthy_doc_ids,untrustworthy_doc_ids
+1,How long is our parental leave these days?,16 weeks primary / 8 weeks secondary,EML-01;PPT-01;DOC-01;WIK-01,SPO-01;TMS-01;PDF-01;XLS-01
+2,How many days can I work from home?,"max 3 remote days/week, 2 office days incl. Tuesday",PDF-02;PPT-02;XLS-02;WIK-02,EML-02;SPO-02;TMS-02;DOC-02
+3,What's the daily meal allowance on business trips?,EUR 60/day with receipts,TMS-03;PDF-03;DOC-03;XLS-03,EML-03;SPO-03;PPT-03;WIK-03
+4,How many vacation days can I carry over to next year?,"5 days, before 31 March",SPO-04;TMS-04;PPT-04;DOC-04,EML-04;PDF-04;XLS-04;WIK-04
+5,When should IT equipment be ordered for a new hire?,order 10 working days before start,EML-05;SPO-05;PDF-05;PPT-05,TMS-05;DOC-05;XLS-05;WIK-05
+6,When are performance reviews held?,June and December,EML-06;TMS-06;PDF-06;WIK-06,SPO-06;PPT-06;DOC-06;XLS-06
+7,When do I need a doctor's note for sick leave?,notify before 9:00; certificate from day 2,SPO-07;TMS-07;XLS-07;WIK-07,EML-07;PDF-07;PPT-07;DOC-07
+8,How much training budget do I have per year?,"EUR 1,500/year",EML-08;SPO-08;DOC-08;XLS-08,TMS-08;PDF-08;PPT-08;WIK-08
+9,What kind of company car can I order?,"EV only, max EUR 55,000",EML-09;PPT-09;DOC-09;WIK-09,SPO-09;TMS-09;PDF-09;XLS-09
+10,When is the annual bonus paid out?,March payroll,PDF-10;PPT-10;XLS-10;WIK-10,EML-10;SPO-10;TMS-10;DOC-10

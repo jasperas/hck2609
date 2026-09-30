@@ -1,0 +1,43 @@
+{
+  "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Policies/_api/$metadata#Items",
+  "Id": 2188,
+  "UniqueId": "8a83a24f-36fb-9604-92ab-af2eb6606c66",
+  "Title": "Performance review cycle Policy",
+  "FileLeafRef": "performance_review_cycle_policy_FINAL_v2.docx",
+  "FileRef": "/sites/HR-Policies/Policies (old)/performance_review_cycle_policy_FINAL_v2.docx",
+  "Site": "HR-Policies",
+  "Library": "Policies (old)",
+  "ContentType": "Document",
+  "Author": {
+    "Title": "Marleen Vos",
+    "Email": "marleen.vos@vandenberg-logistics.example"
+  },
+  "Editor": {
+    "Title": "Marleen Vos",
+    "Email": "marleen.vos@vandenberg-logistics.example"
+  },
+  "Created": "2023-07-10T17:35:00",
+  "Modified": "2023-10-15T17:35:00",
+  "_UIVersionString": "1.2",
+  "_ModerationStatus": 0,
+  "DocumentStatus": "Final",
+  "Department": "HR",
+  "Tags": [],
+  "Sensitivity": "Internal",
+  "ViewCount90d": 1044,
+  "Content": "Purpose: This policy sets out the rules on performance review cycle at Vandenberg Logistics NV.\n\nPolicy: There is one annual performance review in Q4.\n\nValidity: Version 1.2, effective 2021-07-01. Next review: 2024-10-14.",
+  "VersionHistory": [
+    {
+      "version": "1.0",
+      "modified": "2023-06-17",
+      "editor": "Marleen Vos",
+      "comment": "Initial version"
+    },
+    {
+      "version": "1.2",
+      "modified": "2023-10-15",
+      "editor": "Marleen Vos",
+      "comment": "Final"
+    }
+  ]
+}
