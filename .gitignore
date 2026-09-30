@@ -219,3 +219,5 @@ __marimo__/
 
 # Data (keep dirs, ignore contents)
 !data/**/.gitkeep
+
+uv.lock
