@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Bram Wouters <bram.wouters@vandenberg-logistics.example>",
+    "to": "hr-team@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "RE: RE: Travel meal expenses - proposal for feedback",
+    "date": "Wed, 13 May 2026 12:45:00 +0100",
+    "message_id": "<c15eedba-c799-7345-2393-ff19a3044c56@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Hi team,\n\nBelow is my current thinking on travel meal expenses. Nothing is decided yet.\n\nProposal: raise the meal allowance for business travel to EUR 70 per day.\n\nCan you send me your feedback by Friday? Please do not share this with employees yet.\n\nThanks,\nBram Wouters\nHR Business Analyst\n"
+}

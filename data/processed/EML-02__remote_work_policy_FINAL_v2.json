@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Marleen Vos <marleen.vos@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "Remote work policy (final)",
+    "date": "Thu, 21 Apr 2022 13:04:00 +0100",
+    "message_id": "<6ffe6666-fa72-766d-fa90-0d4688e10883@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Hi all,\n\nAs discussed, here is the final remote work policy.\n\nRemote work is fully flexible and there are no fixed office days.\n\nPlease apply this from now on.\n\nBest,\nMarleen Vos\nHR Officer (left company 2022)\n"
+}

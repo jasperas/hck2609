@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Kevin Maes <kevin.maes@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "Quick reminder: Performance review cycle",
+    "date": "Wed, 16 Jul 2025 09:32:00 +0100",
+    "message_id": "<655e743d-57da-c5a2-f8f7-53cd8144e913@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Hi all,\n\nJust a quick reminder from Payroll: There are two review cycles per year.\n\nFor more details, check the HR portal.\n\nRegards,\nKevin Maes\nPayroll\n"
+}

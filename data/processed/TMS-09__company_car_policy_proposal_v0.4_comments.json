@@ -1,0 +1,72 @@
+{
+  "type": "teams_thread",
+  "metadata": {
+    "team": "HR Projects",
+    "channel": "hr-policy-refresh",
+    "chatType": "channel"
+  },
+  "body": [
+    {
+      "id": "1600377306629",
+      "replyToId": null,
+      "createdDateTime": "2026-08-10T15:49:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lotte Verhoeven"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Draft for discussion, not approved yet: Proposal: electric vehicles only, with a list price up to EUR 60,000."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "1600641695609",
+      "replyToId": "1600377306629",
+      "createdDateTime": "2026-08-10T17:49:00Z",
+      "from": {
+        "user": {
+          "displayName": "Pieter Aerts"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Legal still needs to review this. Let's keep it inside this channel."
+      },
+      "reactions": [],
+      "attachments": []
+    },
+    {
+      "id": "1600389753918",
+      "replyToId": "1600377306629",
+      "createdDateTime": "2026-08-10T20:49:00Z",
+      "from": {
+        "user": {
+          "displayName": "Lotte Verhoeven"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Agreed. Nothing is final until the Management Committee signs off."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        }
+      ],
+      "attachments": []
+    }
+  ]
+}

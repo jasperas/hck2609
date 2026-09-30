@@ -1,0 +1,93 @@
+{
+  "type": "teams_thread",
+  "metadata": {
+    "team": "Operations",
+    "channel": "ops-team",
+    "chatType": "channel"
+  },
+  "body": [
+    {
+      "id": "1600068773290",
+      "replyToId": null,
+      "createdDateTime": "2025-11-02T14:21:00Z",
+      "from": {
+        "user": {
+          "displayName": "Pieter Aerts"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "When is the annual bonus paid out?"
+      },
+      "reactions": [],
+      "attachments": []
+    },
+    {
+      "id": "1600512353956",
+      "replyToId": "1600068773290",
+      "createdDateTime": "2025-11-02T14:36:00Z",
+      "from": {
+        "user": {
+          "displayName": "Dries Mertens"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Bonus comes at the end of April, as every year."
+      },
+      "reactions": [
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user0"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user1"
+          }
+        },
+        {
+          "reactionType": "like",
+          "user": {
+            "displayName": "user2"
+          }
+        }
+      ],
+      "attachments": []
+    },
+    {
+      "id": "1600038950130",
+      "replyToId": "1600068773290",
+      "createdDateTime": "2025-11-02T15:01:00Z",
+      "from": {
+        "user": {
+          "displayName": "Hannah Willems"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Not sure that's still correct tbh. Did anyone check the portal?"
+      },
+      "reactions": [],
+      "attachments": []
+    },
+    {
+      "id": "1600768659022",
+      "replyToId": "1600068773290",
+      "createdDateTime": "2025-11-02T15:16:00Z",
+      "from": {
+        "user": {
+          "displayName": "Dries Mertens"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "It's what I was told. Should be fine"
+      },
+      "reactions": [],
+      "attachments": []
+    }
+  ]
+}

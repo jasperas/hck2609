@@ -1,0 +1,33 @@
+{
+  "type": "sharepoint",
+  "metadata": {
+    "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/Ops-TeamSite/_api/$metadata#Items",
+    "Id": 2890,
+    "UniqueId": "7687c93f-40c0-da56-0ea2-79cb9ebe125b",
+    "Title": "Ops Team Cheat Sheet - Travel meal expenses",
+    "FileLeafRef": "travel_meal_expenses_info.docx",
+    "FileRef": "/sites/Ops-TeamSite/Misc/travel_meal_expenses_info.docx",
+    "Site": "Ops-TeamSite",
+    "Library": "Misc",
+    "ContentType": "Document",
+    "Author": {
+      "Title": "Tom De Smet",
+      "Email": "tom.de.smet@vandenberg-logistics.example"
+    },
+    "Editor": {
+      "Title": "Tom De Smet",
+      "Email": "tom.de.smet@vandenberg-logistics.example"
+    },
+    "Created": "2024-12-08T17:51:00",
+    "Modified": "2025-01-15T17:51:00",
+    "_UIVersionString": null,
+    "_ModerationStatus": 0,
+    "DocumentStatus": null,
+    "Department": null,
+    "Tags": [],
+    "Sensitivity": "Internal",
+    "ViewCount90d": 42,
+    "VersionHistory": []
+  },
+  "body": "Overview: Quick overview for new joiners in our team, written by the Team Lead Operations.\n\nWhat to know: You get 50 euro a day flat for meals on trips, no receipts needed.\n\nSource: From what HR told us last year."
+}

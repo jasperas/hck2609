@@ -1,0 +1,58 @@
+{
+  "type": "sharepoint",
+  "metadata": {
+    "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Project-Workspace/_api/$metadata#Items",
+    "Id": 8505,
+    "UniqueId": "e48844d3-a912-9f4c-b66d-29220dd9f437",
+    "Title": "DRAFT - Annual bonus payout Policy Proposal",
+    "FileLeafRef": "annual_bonus_payout_policy_final.docx",
+    "FileRef": "/sites/HR-Project-Workspace/Working Drafts/annual_bonus_payout_policy_final.docx",
+    "Site": "HR-Project-Workspace",
+    "Library": "Working Drafts",
+    "ContentType": "Document",
+    "Author": {
+      "Title": "Lotte Verhoeven",
+      "Email": "lotte.verhoeven@vandenberg-logistics.example"
+    },
+    "Editor": {
+      "Title": "Lotte Verhoeven",
+      "Email": "lotte.verhoeven@vandenberg-logistics.example"
+    },
+    "Created": "2026-05-10T09:36:00",
+    "Modified": "2026-07-17T09:36:00",
+    "_UIVersionString": "0.4",
+    "_ModerationStatus": 3,
+    "DocumentStatus": "In progress",
+    "Department": "HR-Projects",
+    "Tags": [],
+    "Sensitivity": "Internal",
+    "ViewCount90d": 11,
+    "VersionHistory": [
+      {
+        "version": "0.1",
+        "modified": "2026-06-05",
+        "editor": "Lotte Verhoeven",
+        "comment": "First outline"
+      },
+      {
+        "version": "0.2",
+        "modified": "2026-06-19",
+        "editor": "Lotte Verhoeven",
+        "comment": "Added numbers"
+      },
+      {
+        "version": "0.3",
+        "modified": "2026-07-03",
+        "editor": "Lotte Verhoeven",
+        "comment": "Comments from payroll"
+      },
+      {
+        "version": "0.4",
+        "modified": "2026-07-17",
+        "editor": "Lotte Verhoeven",
+        "comment": "Waiting for legal"
+      }
+    ]
+  },
+  "body": "Background: This document is a proposal and has not been approved.\n\nProposal: Proposal: pay the annual bonus in two instalments, in March and in September.\n\nOpen points: Legal review pending. Budget impact to be confirmed."
+}
