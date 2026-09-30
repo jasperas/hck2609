@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Wim Goossens <wim.goossens@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "[Policy] Training budget - updated policy v3.0",
+    "date": "Tue, 23 Sep 2025 17:14:00 +0100",
+    "message_id": "<cd1f6b82-2178-bd24-8e66-afdbcc926a74@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Dear colleagues,\n\nFollowing approval by the Management Committee, please note the updated training budget policy (v3.0), effective 2025-01-01.\n\nEach employee has a training budget of EUR 1,500 per calendar year. Unused budget does not roll over. Requests are approved through the learning portal.\n\nThe full policy is available on the HR SharePoint (HR Policies > Current Policies). This replaces all previous versions.\n\nKind regards,\nWim Goossens\nHead of HR\nVandenberg Logistics NV\n"
+}

@@ -1,0 +1,54 @@
+{
+  "type": "sharepoint",
+  "metadata": {
+    "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Policies/_api/$metadata#Items",
+    "Id": 5713,
+    "UniqueId": "6e58b080-3793-0bb8-fa4c-6b6657033117",
+    "Title": "Sick leave notification Policy",
+    "FileLeafRef": "HR_sick_leave_notification_policy_v3.0.docx",
+    "FileRef": "/sites/HR-Policies/Current Policies/HR_sick_leave_notification_policy_v3.0.docx",
+    "Site": "HR-Policies",
+    "Library": "Current Policies",
+    "ContentType": "Document",
+    "Author": {
+      "Title": "Wim Goossens",
+      "Email": "wim.goossens@vandenberg-logistics.example"
+    },
+    "Editor": {
+      "Title": "Wim Goossens",
+      "Email": "wim.goossens@vandenberg-logistics.example"
+    },
+    "Created": "2026-01-18T08:41:00",
+    "Modified": "2026-06-09T08:41:00",
+    "_UIVersionString": "3.0",
+    "_ModerationStatus": 0,
+    "DocumentStatus": "Approved",
+    "Department": "HR",
+    "Tags": [
+      "sick_leave"
+    ],
+    "Sensitivity": "Internal",
+    "ViewCount90d": 270,
+    "VersionHistory": [
+      {
+        "version": "1.0",
+        "modified": "2021-06-20",
+        "editor": "Jan Peeters",
+        "comment": "Initial version"
+      },
+      {
+        "version": "1.2",
+        "modified": "2022-03-02",
+        "editor": "Jan Peeters",
+        "comment": "Minor edits"
+      },
+      {
+        "version": "3.0",
+        "modified": "2026-06-09",
+        "editor": "Wim Goossens",
+        "comment": "Updated after Management Committee approval"
+      }
+    ]
+  },
+  "body": "Purpose: This policy sets out the rules on sick leave notification at Vandenberg Logistics NV.\n\nPolicy: Employees notify their manager before 9:00 on the first day of absence. A medical certificate is required from the 2nd consecutive day of absence.\n\nConditions: Absences longer than 10 working days must also be reported to the HR mailbox.\n\nValidity: Version 3.0, effective 2025-01-01. Supersedes version 1.2 (2022). Approved by the Management Committee."
+}

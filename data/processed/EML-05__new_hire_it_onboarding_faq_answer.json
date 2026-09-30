@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Sofie Claes <sofie.claes@vandenberg-logistics.example>",
+    "to": "Maxime Dubois <maxime.dubois@vandenberg-logistics.example>",
+    "cc": null,
+    "subject": "RE: New hire IT onboarding",
+    "date": "Tue, 11 Aug 2026 11:32:00 +0100",
+    "message_id": "<5d2eb7cd-1d66-2e2d-aa50-bf5163a285cd@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Hi Maxime,\n\nThanks for your question ('When should IT equipment be ordered for a new hire?'). Short answer: IT equipment is ordered 10 working days before the start date and the manager sends the welcome plan 5 working days before the start date.\n\nThe policy on SharePoint has the details. Let me know if anything is unclear.\n\nBest,\nSofie Claes\nHR Policy Manager, HR\n\n> Maxime wrote:\n> When should IT equipment be ordered for a new hire?\n"
+}

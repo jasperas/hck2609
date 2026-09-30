@@ -1,0 +1,46 @@
+{
+  "type": "sharepoint",
+  "metadata": {
+    "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Policies/_api/$metadata#Items",
+    "Id": 3660,
+    "UniqueId": "4a9dc56d-cf68-7836-c67b-911cbf4e128b",
+    "Title": "Company car policy Policy",
+    "FileLeafRef": "HR_company_car_policy_final.docx",
+    "FileRef": "/sites/HR-Policies/Policies (old)/HR_company_car_policy_final.docx",
+    "Site": "HR-Policies",
+    "Library": "Policies (old)",
+    "ContentType": "Document",
+    "Author": {
+      "Title": "Marleen Vos",
+      "Email": "marleen.vos@vandenberg-logistics.example"
+    },
+    "Editor": {
+      "Title": "Marleen Vos",
+      "Email": "marleen.vos@vandenberg-logistics.example"
+    },
+    "Created": "2022-08-03T14:51:00",
+    "Modified": "2022-08-04T14:51:00",
+    "_UIVersionString": "1.2",
+    "_ModerationStatus": 0,
+    "DocumentStatus": "Final",
+    "Department": "HR",
+    "Tags": [],
+    "Sensitivity": "Internal",
+    "ViewCount90d": 1718,
+    "VersionHistory": [
+      {
+        "version": "1.0",
+        "modified": "2022-04-06",
+        "editor": "Marleen Vos",
+        "comment": "Initial version"
+      },
+      {
+        "version": "1.2",
+        "modified": "2022-08-04",
+        "editor": "Marleen Vos",
+        "comment": "Final"
+      }
+    ]
+  },
+  "body": "Purpose: This policy sets out the rules on company car policy at Vandenberg Logistics NV.\n\nPolicy: New lease contracts allow hybrid or petrol cars with CO2 emissions up to 120 g/km and a list price up to EUR 45,000.\n\nValidity: Version 1.2, effective 2021-07-01. Next review: 2023-08-04."
+}
