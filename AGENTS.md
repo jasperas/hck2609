@@ -1,0 +1,60 @@
+# AGENTS.md
+
+Instructions for every coding agent working in this repo. Keep it short; edit here, not in `CLAUDE.md`.
+
+## Rules
+
+- Short over exhaustive: brief answers, small diffs, no unrequested extras.
+- Match the surrounding code: naming, comment density, idiom.
+- Read before you edit. Don't guess at APIs or file contents.
+- Stay in your lane: edit only the module you were asked to touch. `contracts.py` and `pipeline.py` are shared glue; change them rarely and say so.
+- Don't add dependencies, abstractions or config without a reason.
+- Never commit secrets or data files (`data/` is gitignored).
+- Ask when a decision is genuinely the user's; otherwise pick the obvious default and note it.
+- Commit or push only when asked. Never push straight to `main`.
+
+## Project description
+
+Dummy: a hackathon data app. Messy data goes in, is cleaned, analysed, and shown in a Streamlit demo. Replace with the real pitch once the theme is known.
+
+## Tech stack
+
+- Python 3.13, managed with `uv`
+- pandas for data handling
+- Streamlit for the UI
+- pytest for tests, ruff for lint and format
+
+## Commands
+
+```bash
+uv sync                                        # install dependencies
+uv run hck2609                                 # run the pipeline in the terminal
+uv run streamlit run src/hck2609/ui/app.py     # launch the UI
+uv run pytest                                  # run tests
+uv run ruff check . && uv run ruff format .    # lint and format
+```
+
+**Before opening a PR** run `uv run ruff check . && uv run ruff format . && uv run pytest`
+— CI re-runs exactly this, plus checks that committed HTML briefs are self-contained.
+
+- Changed a dependency? Run `uv lock` and **commit the lockfile** — CI installs
+  `--frozen` and fails on a stale lock.
+- **Never hand-merge `uv.lock`**: take either side and regenerate
+  (`git checkout --theirs uv.lock && uv lock`).
+- `exclude-newer` is a pinned date — taking newer packages means bumping it deliberately.
+
+## Project structure
+
+```
+src/hck2609/
+├── contracts.py    # shared types between modules
+├── pipeline.py     # glue: ingestion → processing → analysis
+├── ingestion/      # load_raw() – get raw data in
+├── processing/     # clean() – clean and normalise
+├── analysis/       # analyse() – stats, models, LLM insights
+└── ui/             # Streamlit app, display only
+data/{raw,processed}/   # gitignored
+tests/                  # pytest
+```
+
+See `README.md` for how the pieces fit together.
