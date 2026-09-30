@@ -4,6 +4,7 @@ import json
 from pptx import Presentation
 import pandas as pd
 from docx import Document
+import frontmatter
 
 def pptx_to_json(file_path):
     """
@@ -137,6 +138,30 @@ def excel_to_json(file_path):
     # Convert the Python structure to a formatted JSON string
     return json.dumps(presentation_data, indent=4)
 
+def markdown_to_json(file_path):
+    """
+    Reads a Markdown file with YAML frontmatter, extracts metadata and content body,
+    joins the body lines, and formats it into the standard JSON structure.
+    """
+    # Load the markdown file using python-frontmatter
+    post = frontmatter.load(file_path)
+    
+    # Extract metadata (YAML frontmatter dictionary)
+    metadata = dict(post.metadata)
+    
+    # Extract the body content, strip whitespace, and clean up empty lines
+    body_lines = [line.strip() for line in post.content.splitlines() if line.strip()]
+    combined_body = "\n".join(body_lines)
+    
+    # Construct the structured dictionary
+    document_data = {
+        "DocType": "markdown",
+        "metadata": metadata,
+        "body": combined_body
+    }
+    
+    # Convert to a formatted JSON string
+    return json.dumps(document_data, indent=4)
 
 def clean(raw: RawData) -> CleanData:
     """Clean and normalise raw data. Stub: strips names, drops missing rows."""
