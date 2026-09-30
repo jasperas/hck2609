@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 6,
+      "Changelog": 2
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nRemote work | max 3 remote days/week, 2 office days incl. Tuesday | 2025-01-01 | Wim Goossens, Head of HR | Employees may work remotely up to 3 days per week. At least 2 office days are required, including the Tuesday team anchor day.\nRemote work - conditions | Working from abroad needs manager approval and is limited to 10 days per calendar year. | 2025-01-01 | Wim Goossens, Head of HR\nLast updated | 2025-09-29\n\nSheet: Changelog\n1.2 | 02/03/2022 | Previous values\n3.0 | 2025-09-29 00:00:00 | New values approved"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 5,
+      "Changelog": 1
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nTraining budget | EUR 1,500 (period and rules omitted) | - | Each employee has a training budget of EUR 1,500.\nLast updated\n\nSheet: Changelog\nNo change log maintained"
+}

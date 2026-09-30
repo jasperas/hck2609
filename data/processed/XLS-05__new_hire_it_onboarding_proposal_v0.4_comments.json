@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 6,
+      "Changelog": 1
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nNew hire IT onboarding | 15 working days (proposal) | TBD | Lotte Verhoeven, HR Project Lead | Proposal: order IT equipment 15 working days before the start date.\nSTATUS | DRAFT - not approved | Awaiting legal review\nLast updated | 2026-07-26\n\nSheet: Changelog\n0.4 | 2026-07-26 00:00:00 | Proposal, waiting for approval"
+}

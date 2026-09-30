@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 6,
+      "Changelog": 1
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nPerformance review cycle | November, yearly | Kevin Janssens, Warehouse Supervisor | Reviews are in November, once a year, like always.\ncopied from old mail, please verify\nLast updated | 2026-02-20\n\nSheet: Changelog\nNo change log maintained"
+}

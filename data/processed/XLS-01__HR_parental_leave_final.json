@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 5,
+      "Changelog": 2
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nParental leave | 12 weeks primary / 4 weeks secondary | 2021-07-01 | Jan Peeters, HR Advisor (left company 2023) | Parental leave is 12 weeks fully paid for the primary caregiver and 4 weeks for the secondary caregiver.\nLast updated | 2023-05-21\n\nSheet: Changelog\n1.0 | 2023-01-21 | Initial\n1.2 | 2023-05-21 | Final"
+}

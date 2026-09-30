@@ -1,0 +1,14 @@
+{
+  "type": "excel",
+  "metadata": {
+    "sheets": [
+      "Parameters",
+      "Changelog"
+    ],
+    "rows": {
+      "Parameters": 5,
+      "Changelog": 1
+    }
+  },
+  "body": "Sheet: Parameters\nParameter | Value | Effective from | Owner | Notes\nSick leave notification | notify before 9:00; certificate from day 2 | Nadia El Amrani, HR Business Partner | Employees notify their manager before 9:00 on the first day of absence. A medical certificate is required from the 2nd consecutive day of absence.\nLast updated | 2026-01-13\n\nSheet: Changelog\nNo change log maintained"
+}
