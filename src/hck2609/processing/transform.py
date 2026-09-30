@@ -47,7 +47,50 @@ def pptx_to_json(file_path):
     # Convert the Python structure to a formatted JSON string
     return json.dumps(presentation_data, indent=4)
 
-
+def docx_to_json(file_path):
+    """
+    Reads a Word document (.docx), extracts its paragraphs and table content for the body,
+    pulls metadata from core properties, and formats it into the JSON structure.
+    """
+    doc = Document(file_path)
+    
+    # Extract metadata from core properties
+    core_props = doc.core_properties
+    metadata = {
+        "title": core_props.title if core_props.title else "",
+        "author": core_props.author if core_props.author else "",
+        "last_modified_by": core_props.last_modified_by if core_props.last_modified_by else "",
+        "revision": core_props.revision if core_props.revision else 1
+    }
+    
+    body_elements = []
+    
+    # Extract text from paragraphs
+    for paragraph in doc.paragraphs:
+        text = paragraph.text.strip()
+        if text:
+            body_elements.append(text)
+            
+    # Extract text from tables if the document contains any
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                text = cell.text.strip()
+                if text:
+                    body_elements.append(text)
+                    
+    # Join all body elements with a newline character
+    combined_body = "\n".join(body_elements)
+    
+    # Construct the final JSON dictionary structure
+    document_data = {
+        "DocType": "word",
+        "metadata": metadata,
+        "body": combined_body
+    }
+    
+    # Convert to a formatted JSON string
+    return json.dumps(document_data, indent=4)
 
 
 def clean(raw: RawData) -> CleanData:
