@@ -1,0 +1,54 @@
+{
+  "type": "sharepoint",
+  "metadata": {
+    "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/HR-Policies/_api/$metadata#Items",
+    "Id": 5948,
+    "UniqueId": "3b438f25-7d48-8c7a-a682-ff0330ba9507",
+    "Title": "Training budget Policy",
+    "FileLeafRef": "HR_training_budget_policy_v3.0.docx",
+    "FileRef": "/sites/HR-Policies/Current Policies/HR_training_budget_policy_v3.0.docx",
+    "Site": "HR-Policies",
+    "Library": "Current Policies",
+    "ContentType": "Document",
+    "Author": {
+      "Title": "Sofie Claes",
+      "Email": "sofie.claes@vandenberg-logistics.example"
+    },
+    "Editor": {
+      "Title": "Sofie Claes",
+      "Email": "sofie.claes@vandenberg-logistics.example"
+    },
+    "Created": "2025-08-25T10:42:00",
+    "Modified": "2026-02-12T10:42:00",
+    "_UIVersionString": "3.0",
+    "_ModerationStatus": 0,
+    "DocumentStatus": "Approved",
+    "Department": "HR",
+    "Tags": [
+      "training_budget"
+    ],
+    "Sensitivity": "Internal",
+    "ViewCount90d": 230,
+    "VersionHistory": [
+      {
+        "version": "1.0",
+        "modified": "2021-06-20",
+        "editor": "Jan Peeters",
+        "comment": "Initial version"
+      },
+      {
+        "version": "1.2",
+        "modified": "2022-03-02",
+        "editor": "Jan Peeters",
+        "comment": "Minor edits"
+      },
+      {
+        "version": "3.0",
+        "modified": "2026-02-12",
+        "editor": "Sofie Claes",
+        "comment": "Updated after Management Committee approval"
+      }
+    ]
+  },
+  "body": "Purpose: This policy sets out the rules on training budget at Vandenberg Logistics NV.\n\nPolicy: Each employee has a training budget of EUR 1,500 per calendar year.\n\nConditions: Unused budget does not roll over. Requests are approved through the learning portal.\n\nValidity: Version 3.0, effective 2025-01-01. Supersedes version 1.2 (2022). Approved by the Management Committee."
+}

@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Wim Goossens <wim.goossens@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "[Policy] Parental leave - updated policy v3.0",
+    "date": "Sat, 04 Apr 2026 12:32:00 +0100",
+    "message_id": "<4da5e709-d471-3d60-c8a7-0639eb1167b3@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Dear colleagues,\n\nFollowing approval by the Management Committee, please note the updated parental leave policy (v3.0), effective 2025-01-01.\n\nParental leave is 16 weeks fully paid for the primary caregiver and 8 weeks fully paid for the secondary caregiver. Eligibility requires at least 6 months of service on the start date of the leave.\n\nThe full policy is available on the HR SharePoint (HR Policies > Current Policies). This replaces all previous versions.\n\nKind regards,\nWim Goossens\nHead of HR\nVandenberg Logistics NV\n"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "sharepoint",
+  "metadata": {
+    "@odata.context": "https://vandenberg-logistics.sharepoint.example/sites/Payroll-Team/_api/$metadata#Items",
+    "Id": 4086,
+    "UniqueId": "726d2550-8123-07a8-5416-9a15c49408ba",
+    "Title": "Payroll Info Sheet - New hire IT onboarding",
+    "FileLeafRef": "new_hire_it_onboarding_infosheet.docx",
+    "FileRef": "/sites/Payroll-Team/Info Sheets/new_hire_it_onboarding_infosheet.docx",
+    "Site": "Payroll-Team",
+    "Library": "Info Sheets",
+    "ContentType": "Document",
+    "Author": null,
+    "Editor": null,
+    "Created": "2025-09-04T15:49:00",
+    "Modified": null,
+    "_UIVersionString": "1.0",
+    "_ModerationStatus": 0,
+    "DocumentStatus": "Published",
+    "Department": "PAYROLL",
+    "Tags": [],
+    "Sensitivity": "Internal",
+    "ViewCount90d": 157,
+    "VersionHistory": []
+  },
+  "body": "Reminder: IT equipment is ordered 10 working days before the start date.\n\nMore info: Contact Payroll for details."
+}

@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Wim Goossens <wim.goossens@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "[Policy] Company car policy - updated policy v3.0",
+    "date": "Fri, 26 Sep 2025 13:04:00 +0100",
+    "message_id": "<389761c0-b7ff-da62-a0a1-448f1c709710@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Dear colleagues,\n\nFollowing approval by the Management Committee, please note the updated company car policy policy (v3.0), effective 2025-01-01.\n\nNew lease contracts are limited to fully electric vehicles with a list price up to EUR 55,000. Existing lease contracts continue until their contractual end date.\n\nThe full policy is available on the HR SharePoint (HR Policies > Current Policies). This replaces all previous versions.\n\nKind regards,\nWim Goossens\nHead of HR\nVandenberg Logistics NV\n"
+}

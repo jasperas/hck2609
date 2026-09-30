@@ -1,0 +1,13 @@
+{
+  "type": "email",
+  "metadata": {
+    "from": "Marleen Vos <marleen.vos@vandenberg-logistics.example>",
+    "to": "all-employees@vandenberg-logistics.example",
+    "cc": null,
+    "subject": "Annual bonus payout policy (final)",
+    "date": "Mon, 19 Dec 2022 08:34:00 +0100",
+    "message_id": "<2c30a946-ccf7-a837-c2ec-fa4776133fdb@vandenberg-logistics.example>",
+    "attachments": []
+  },
+  "body": "Hi all,\n\nAs discussed, here is the final annual bonus payout policy.\n\nThe annual bonus is paid with the April payroll.\n\nPlease apply this from now on.\n\nBest,\nMarleen Vos\nHR Officer (left company 2022)\n"
+}
