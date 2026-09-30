@@ -173,7 +173,7 @@ def infer_message(
     ]
 
 
-def render_answer_card(answer: dict[str, Any]) -> html.Article:
+def render_answer_card(answer: dict[str, Any], subtitle: str = "") -> html.Article:
     key = answer["key"]
     emoji = {
         "wants_refund": "💸",
@@ -186,20 +186,69 @@ def render_answer_card(answer: dict[str, Any]) -> html.Article:
     confidence = max(0.0, min(1.0, float(confidence)))
     hue = round(confidence * 125)
     color = f"hsl({hue}, 55%, 38%)"
+    title = "Yes/No decision" if "noul" in answer else key
 
     details = []
     for name, value in answer.items():
-        if name == "key":
+        if name in {"key", "confidence"}:
             continue
-        if name == "confidence":
-            label = "Confidence"
-            display = f"{confidence:.0%}"
+        if name == "probabilities" and isinstance(value, dict):
+            label = name.replace("_", " ").title()
+            display = html.Div(
+                [
+                    html.Div(
+                        [
+                            html.Div(
+                                [
+                                    html.Span(option),
+                                    html.Span(f"{probability:.0%}"),
+                                ],
+                                style={
+                                    "display": "flex",
+                                    "justifyContent": "space-between",
+                                    "gap": "8px",
+                                    "fontSize": "13px",
+                                },
+                            ),
+                            html.Div(
+                                html.Div(
+                                    style={
+                                        "width": f"{max(0.0, min(1.0, float(probability))) * 100:.1f}%",
+                                        "height": "100%",
+                                        "backgroundColor": "#2878b5",
+                                    }
+                                ),
+                                style={
+                                    "height": "7px",
+                                    "marginTop": "5px",
+                                    "overflow": "hidden",
+                                    "borderRadius": "4px",
+                                    "backgroundColor": "#dce5e1",
+                                },
+                            ),
+                        ],
+                        style={"marginTop": "10px"},
+                    )
+                    for option, probability in value.items()
+                ]
+            )
         elif isinstance(value, dict):
             label = name.replace("_", " ").title()
             display = json.dumps(value, indent=2)
         elif name == "noul":
-            label = "Noul probability"
-            display = f"{float(value):.3f} ({float(value):.1%})"
+            if value < 0.2:
+                noul_text = "Definitely no"
+            elif 0.2 <= value <= 0.3:
+                noul_text = "Leaning towards no"
+            elif 0.3 <= value <= 0.5:
+                noul_text = "Undecided between yes/no"
+            elif 0.5 <= value <= 0.7:
+                noul_text = "Leaning towards yes"
+            elif 0.7 <= value:
+                noul_text = "Definitely yes"
+
+            display = noul_text
+            label = ""
         elif isinstance(value, float):
             label = name.replace("_", " ").title()
             display = f"{value:.3f}"
@@ -207,23 +256,40 @@ def render_answer_card(answer: dict[str, Any]) -> html.Article:
             label = name.replace("_", " ").title()
             display = str(value)
 
+        if name in {"choice", "score", "noul"}:
+            value_display = html.Div(
+                display,
+                style={
+                    "marginTop": "4px",
+                    "fontSize": "26px",
+                    "fontWeight": 700,
+                    "lineHeight": 1.2,
+                    "color": "#183c39",
+                    "overflowWrap": "anywhere",
+                },
+            )
+        elif isinstance(display, str):
+            value_display = html.Pre(
+                display,
+                style={
+                    "margin": "4px 0 0",
+                    "whiteSpace": "pre-wrap",
+                    "overflowWrap": "anywhere",
+                    "fontFamily": "monospace" if isinstance(value, dict) else "inherit",
+                    "fontSize": "13px",
+                },
+            )
+        else:
+            value_display = display
+
         details.append(
             html.Div(
-                [
-                    html.Span(label, style={"fontWeight": 700, "color": "#526663"}),
-                    html.Pre(
-                        display,
-                        style={
-                            "margin": "4px 0 0",
-                            "whiteSpace": "pre-wrap",
-                            "overflowWrap": "anywhere",
-                            "fontFamily": "monospace"
-                            if isinstance(value, dict)
-                            else "inherit",
-                            "fontSize": "13px",
-                        },
-                    ),
-                ],
+                (
+                    [html.Span(label, style={"fontWeight": 700, "color": "#526663"})]
+                    if label
+                    else []
+                )
+                + [value_display],
                 style={"padding": "10px 0", "borderTop": "1px solid #dce5e1"},
             )
         )
@@ -232,7 +298,10 @@ def render_answer_card(answer: dict[str, Any]) -> html.Article:
         [
             html.Header(
                 [
-                    html.H3(f"{emoji}  {key}", style={"margin": 0, "fontSize": "17px"}),
+                    html.H3(
+                        f"{emoji}  {title}",
+                        style={"margin": 0, "fontSize": "17px"},
+                    ),
                     html.Span(
                         f"{confidence:.0%} confidence",
                         style={
@@ -253,6 +322,21 @@ def render_answer_card(answer: dict[str, Any]) -> html.Article:
                     "gap": "12px",
                     "marginBottom": "8px",
                 },
+            ),
+            *(
+                [
+                    html.P(
+                        subtitle,
+                        style={
+                            "margin": "0 0 8px",
+                            "color": "#526663",
+                            "fontSize": "14px",
+                            "lineHeight": 1.5,
+                        },
+                    )
+                ]
+                if "noul" in answer and subtitle
+                else []
             ),
             *details,
         ],
