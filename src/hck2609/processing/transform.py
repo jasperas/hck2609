@@ -2,6 +2,8 @@ from hck2609.contracts import CleanData, RawData
 
 import json
 from pptx import Presentation
+import pandas as pd
+from docx import Document
 
 def pptx_to_json(file_path):
     """
@@ -91,6 +93,49 @@ def docx_to_json(file_path):
     
     # Convert to a formatted JSON string
     return json.dumps(document_data, indent=4)
+
+def excel_to_json(file_path):
+    """
+    Reads an Excel file, iterates through each sheet, extracts metadata,
+    converts sheet rows into a newline-separated body string, and formats into JSON.
+    """
+    xls = pd.ExcelFile(file_path)
+    presentation_data = []
+    
+    # Iterate through all sheets in the Excel workbook
+    for sheet_name in xls.sheet_names:
+        df = pd.read_excel(file_path, sheet_name=sheet_name)
+        
+        body_elements = []
+        
+        # Include the sheet name as context in the body or header
+        body_elements.append(f"Sheet: {sheet_name}")
+        
+        # Convert dataframe rows into string representations
+        for _, row in df.iterrows():
+            # Drop NaN values and format row elements
+            row_vals = [str(val).strip() for val in row.values if pd.notna(val) and str(val).strip() != ""]
+            if row_vals:
+                body_elements.append(" | ".join(row_vals))
+                
+        # Join all body elements with a newline character
+        combined_body = "\n".join(body_elements)
+        
+        # Construct the structured dictionary for the sheet
+        sheet_entry = {
+            "DocType": "excel",
+            "metadata": {
+                "file_name": file_path,
+                "sheet_name": sheet_name,
+                "total_rows": len(df)
+            },
+            "body": combined_body
+        }
+        
+        presentation_data.append(sheet_entry)
+        
+    # Convert the Python structure to a formatted JSON string
+    return json.dumps(presentation_data, indent=4)
 
 
 def clean(raw: RawData) -> CleanData:
