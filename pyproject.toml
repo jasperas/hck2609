@@ -1,4 +1,5 @@
 [project]
+<<<<<<< HEAD
 name = "test-hck2609"
 version = "0.1.0"
 description = "Add your description here"
@@ -7,3 +8,21 @@ requires-python = ">=3.13"
 dependencies = [
     "pyglet>=2.1.16",
 ]
+=======
+name = "hck2609"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jasperas", email = "15309853+jasperas@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+hck2609 = "hck2609:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+>>>>>>> 6df8d64 (ran `uv init`)
