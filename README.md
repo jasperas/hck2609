@@ -1,2 +1,75 @@
 # hck2609
+
 Tectonic Hackathon 30/09/2026
+
+A Python-only data stack: messy data in → clean pipeline → analysis → Streamlit demo.
+The layout is designed so a small team can work in parallel with almost no merge conflicts.
+
+## Quick start
+
+```bash
+uv sync                                        # install everything (Python 3.13)
+uv run hck2609                                 # run the pipeline in the terminal
+uv run streamlit run src/hck2609/ui/app.py     # launch the demo UI
+uv run pytest                                  # run tests
+uv run ruff check . && uv run ruff format .    # lint / format
+```
+
+## Project structure
+
+```
+hck2609/
+├── src/hck2609/
+│   ├── contracts.py      # shared types between modules (change as a team)
+│   ├── pipeline.py       # the glue: ingestion → processing → analysis (one owner)
+│   ├── ingestion/        # get raw data in (files, APIs, scraping, PDF parsing)
+│   │   └── load.py       #   load_raw(source) -> RawData
+│   ├── processing/       # clean, normalise, reshape
+│   │   └── transform.py  #   clean(raw) -> CleanData
+│   ├── analysis/         # stats, models, LLM summaries / Q&A
+│   │   └── insights.py   #   analyse(data) -> list[Insight]
+│   └── ui/               # Streamlit front end (no business logic here)
+│       └── app.py
+├── data/
+│   ├── raw/              # original inputs, never edited by hand (gitignored)
+│   └── processed/        # pipeline outputs / caches (gitignored)
+├── tests/                # pytest; at minimum an end-to-end pipeline test
+├── pyproject.toml        # dependencies and packaging, managed with uv
+└── README.md
+```
+
+### How the pieces fit
+
+Data flows one way, and each stage only knows about the types in `contracts.py`:
+
+```
+ingestion.load_raw ──RawData──▶ processing.clean ──CleanData──▶ analysis.analyse ──list[Insight]──▶ ui
+```
+
+`pipeline.run_pipeline()` wires this together; both the CLI (`hck2609`) and the
+Streamlit app call it, so the UI stays a thin display layer.
+
+### Working in parallel
+
+- **One folder, one owner.** Suggested split: ingestion + processing (data
+  strength), analysis (model/LLM), ui. Don't edit another person's folder
+  without a heads-up.
+- **The contract comes first.** Function signatures and types live in
+  `contracts.py` and the stubs. Each stage ships with a dummy implementation, so
+  everyone can build against mocks and the pipeline runs from minute zero.
+- **`contracts.py` and `pipeline.py` are shared glue.** Change them rarely, together, and via small PRs.
+- **Branch per person** (`feature/ingestion`, ...), pull `main` every ~30 minutes, commit small and often.
+
+### Data
+
+`data/raw` and `data/processed` are gitignored (only `.gitkeep` is tracked). Share
+large datasets out of band and document where to get them here.
+
+## Adding dependencies
+
+```bash
+uv add <package>          # runtime
+uv add --dev <package>    # dev only
+```
+
+Commit `pyproject.toml` and `uv.lock` so everyone gets identical environments.

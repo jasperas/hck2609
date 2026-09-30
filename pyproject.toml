@@ -7,7 +7,10 @@ authors = [
     { name = "jasperas", email = "15309853+jasperas@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.6",
+    "streamlit>=1.64.0",
+]
 
 [project.scripts]
 hck2609 = "hck2609:main"
@@ -15,3 +18,9 @@ hck2609 = "hck2609:main"
 [build-system]
 requires = ["uv_build>=0.12.18,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.9",
+]

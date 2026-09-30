@@ -1,2 +1,8 @@
+from hck2609.pipeline import run_pipeline
+
+
 def main() -> None:
-    print("Hello from hck2609!")
+    data, insights = run_pipeline()
+    print(data)
+    for insight in insights:
+        print(f"- {insight['title']}: {insight['summary']}")
